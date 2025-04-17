@@ -1,16 +1,50 @@
-# codeiterate
+# Flutter UI Authentication App
 
-A new Flutter project.
+This app includes full UI flows for login, registration, and password recovery, built with Flutter.
 
-## Getting Started
+## 🧠 Features Covered
+- Bottom overflow fix with `SingleChildScrollView` and `MediaQuery`
+- Responsive design across screen sizes
+- Proper keyboard handling using `resizeToAvoidBottomInset`
 
-This project is a starting point for a Flutter application.
+## 🛠️ Screens Implemented
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 Login Screen
+- Email & password fields
+- Forgot Password flow
+- Navigation to Registration
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📝 Register Screen
+- Full name, email, password, confirm password
+- Terms and conditions checkbox
+- Navigation back to Login
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔑 Forgot Password
+- Email input
+- Navigates to OTP verification screen
+
+### 📩 OTP Verification
+- 4-digit OTP input
+- Navigate to Set New Password
+- Resend OTP option with message popup
+
+### 🔒 Set New Password
+- New password and confirm password fields
+- On success, navigates back to login
+
+### 🏠 Home / Dashboard
+- AppBar with Drawer
+- Welcome message
+- Drawer options: Profile, Settings, Help, Logout
+- Logout shows confirmation and navigates to login
+
+## ✅ Extras
+- Navigation with `MaterialPageRoute`
+- Custom message popups
+- Clean and consistent UI styling
+
+---
+
+## 📦 Built With
+- Flutter
+- Dart
